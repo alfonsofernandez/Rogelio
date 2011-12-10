@@ -1,0 +1,40 @@
+Roguelio 0.01 
+Alfonso Fernádez Abad
+afa11@alu.ua.es
+
+Primera versión muy limitada, del clasico Rogue.
+
+Mapas:
+ El juego carga pantallas desde los ficheros de texto
+ de la carpeta pantalla, 
+ Actualmente solo hay 1 mapa pero se puede modificar editando el
+ fichero de texto.
+ En próximas versiones se intentará generar aleatoriamente.
+
+Los movimientos del jugador:
+ teclas w,a,x,d 
+ no se puede mover en diagonal todavia.
+
+Atacar a un enemigo:
+ Solo se puede atacar ocupando la misma posición que el enemigo.
+ Si el enemigo aún tiene vida, te empujará hacía atras.
+
+Tipos de enemigos :
+ Solo esta implementado un goblin, estático. (g)
+
+Cofres:
+ Desaparecen si los tocas.
+
+Notificaciones:
+ Se ha implementado un sistema de notificaciones, que informa graficamente
+ de la acción que se está llevando a cabo
+ Cada notificación se puede editar, modificando su fichero de texto
+ en la carpeta objetos.
+
+
+
+
+
+
+
+
